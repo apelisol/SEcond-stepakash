@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": "Mr Gabriel Anyula",
+        "client_to_loginid": "CR1639702",
+        "echo_req": {
+            "amount": 28.39,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 284832571,
+            "transfer_to": "CR1639702"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 284832571,
+        "transaction_id": 112630608261
+    }
+}

@@ -1,0 +1,2 @@
+{"Body":{"stkCallback":{"MerchantRequestID":"f1e8-4d0f-a681-489d3f41589e74840610","CheckoutRequestID":"ws_CO_22022024104337808729004302","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":1400.00},{"Name":"MpesaReceiptNumber","Value":"SBM5TE798N"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20240222104354},{"Name":"PhoneNumber","Value":254729004302}]}}}} }
+        

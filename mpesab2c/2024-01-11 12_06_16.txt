@@ -1,0 +1,1 @@
+{"Result":{"ResultType":0,"ResultCode":8006,"ResultDesc":"The security credential is locked.","OriginatorConversationID":"86085-41581325-1","ConversationID":"AG_20240111_20104be1527a2b85f558","TransactionID":"SAB2P9F2R4","ReferenceData":{"ReferenceItem":{"Key":"QueueTimeoutURL","Value":"http:\/\/internalapi.safaricom.co.ke\/mpesa\/b2cresults\/v1\/submit"}}}}

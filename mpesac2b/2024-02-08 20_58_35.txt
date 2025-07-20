@@ -1,0 +1,1 @@
+{"Body":{"stkCallback":{"MerchantRequestID":"8bec-40c2-b196-6e4107441cba39465574","CheckoutRequestID":"ws_CO_08022024205826143721992131","ResultCode":1032,"ResultDesc":"Request cancelled by user"}}}

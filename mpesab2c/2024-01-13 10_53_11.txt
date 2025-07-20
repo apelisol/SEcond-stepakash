@@ -1,0 +1,1 @@
+{"Result":{"ResultType":0,"ResultCode":21,"ResultDesc":"The initiator is not allowed to initiate this request.","OriginatorConversationID":"10979-18221949-1","ConversationID":"AG_20240113_2010586733908c32c341","TransactionID":"SAD7VLYNBH","ReferenceData":{"ReferenceItem":{"Key":"QueueTimeoutURL","Value":"http:\/\/internalapi.safaricom.co.ke\/mpesa\/b2cresults\/v1\/submit"}}}}

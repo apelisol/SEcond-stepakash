@@ -1,0 +1,1 @@
+{"Body":{"stkCallback":{"MerchantRequestID":"db57-40e1-af85-2424fab5a2e612501529","CheckoutRequestID":"ws_CO_24012024123106057700200190","ResultCode":1,"ResultDesc":"The balance is insufficient for the transaction."}}}

@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": " Alexander Mulwa",
+        "client_to_loginid": "CR6281098",
+        "echo_req": {
+            "amount": 10.15,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 792625936,
+            "transfer_to": "CR6281098"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 792625936,
+        "transaction_id": 111912612921
+    }
+}

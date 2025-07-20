@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": " Isaac mukundi mwangi",
+        "client_to_loginid": "CR4551926",
+        "echo_req": {
+            "amount": 22.17,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 716361712,
+            "transfer_to": "CR4551926"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 716361712,
+        "transaction_id": 112457314841
+    }
+}

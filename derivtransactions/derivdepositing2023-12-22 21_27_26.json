@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": " Nelly Gichobi",
+        "client_to_loginid": "CR2934143",
+        "echo_req": {
+            "amount": 94.64,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 396597354,
+            "transfer_to": "CR2934143"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 396597354,
+        "transaction_id": 112549013861
+    }
+}

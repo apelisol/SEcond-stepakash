@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": "Ms BEATRICE ACHIENG RACHILO",
+        "client_to_loginid": "CR833737",
+        "echo_req": {
+            "amount": 10.13,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 414321155,
+            "transfer_to": "CR833737"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 414321155,
+        "transaction_id": 112244524461
+    }
+}

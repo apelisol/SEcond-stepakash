@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": " RUTH WANGARI KARANJA",
+        "client_to_loginid": "CR4731580",
+        "echo_req": {
+            "amount": 10.09,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 195605989,
+            "transfer_to": "CR4731580"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 195605989,
+        "transaction_id": 111947626101
+    }
+}

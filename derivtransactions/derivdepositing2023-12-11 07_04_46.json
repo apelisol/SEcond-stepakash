@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": "Mr Wesley Mutai",
+        "client_to_loginid": "CR1340077",
+        "echo_req": {
+            "amount": 18.01,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 249100653,
+            "transfer_to": "CR1340077"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 249100653,
+        "transaction_id": 112052450561
+    }
+}

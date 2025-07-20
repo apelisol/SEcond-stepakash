@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": " Michael Irungu",
+        "client_to_loginid": "CR5812624",
+        "echo_req": {
+            "amount": 10.09,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 648627892,
+            "transfer_to": "CR5812624"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 648627892,
+        "transaction_id": 112568378621
+    }
+}

@@ -1,0 +1,1 @@
+{"Body":{"stkCallback":{"MerchantRequestID":"81105-11773154-1","CheckoutRequestID":"ws_CO_08012024135130974719777929","ResultCode":2001,"ResultDesc":"The initiator information is invalid."}}}

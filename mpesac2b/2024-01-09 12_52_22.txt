@@ -1,0 +1,1 @@
+{"Body":{"stkCallback":{"MerchantRequestID":"81098-13377139-1","CheckoutRequestID":"ws_CO_09012024125151939793601418","ResultCode":26,"ResultDesc":"System busy. The service request is rejected."}}}

@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": " Lucy Kanyugo",
+        "client_to_loginid": "CR4158269",
+        "echo_req": {
+            "amount": 20.27,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 730324596,
+            "transfer_to": "CR4158269"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 730324596,
+        "transaction_id": 112321556881
+    }
+}

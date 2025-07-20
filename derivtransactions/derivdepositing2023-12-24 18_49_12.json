@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": " EDWARD OMBASA",
+        "client_to_loginid": "CR1917977",
+        "echo_req": {
+            "amount": 20.19,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 825920735,
+            "transfer_to": "CR1917977"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 825920735,
+        "transaction_id": 112623130621
+    }
+}

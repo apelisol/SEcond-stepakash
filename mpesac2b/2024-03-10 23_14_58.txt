@@ -1,0 +1,14 @@
+{
+            "TransactionType": "Pay Bill",
+            "TransID": "SCA4NCP28E",
+            "TransTime": "20240310231455",
+            "TransAmount": "10000.00",
+            "BusinessShortCode": "4124755",
+            "BillRefNumber": "0701357224",
+            "InvoiceNumber": "",
+            "OrgAccountBalance": "11500.00",
+            "ThirdPartyTransID": "",
+            "MSISDN": "2547 ***** 224",
+            "FirstName": "MOHAMED"
+        }
+        

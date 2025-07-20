@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": " HELEN WANGARI GACAO",
+        "client_to_loginid": "CR5715020",
+        "echo_req": {
+            "amount": 10.13,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 646352577,
+            "transfer_to": "CR5715020"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 646352577,
+        "transaction_id": 112020716981
+    }
+}

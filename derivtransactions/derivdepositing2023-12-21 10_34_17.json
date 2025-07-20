@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": " Elizabeth Ngetha",
+        "client_to_loginid": "CR4696724",
+        "echo_req": {
+            "amount": 17.1,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 691763917,
+            "transfer_to": "CR4696724"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 691763917,
+        "transaction_id": 112481694941
+    }
+}

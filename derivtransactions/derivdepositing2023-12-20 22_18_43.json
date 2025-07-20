@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": "Mr Martin Mugambi Irungu",
+        "client_to_loginid": "CR1406983",
+        "echo_req": {
+            "amount": 38,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 638493441,
+            "transfer_to": "CR1406983"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 638493441,
+        "transaction_id": 112461498141
+    }
+}

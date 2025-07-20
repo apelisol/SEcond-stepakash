@@ -1,0 +1,14 @@
+{
+            "TransactionType": "Pay Bill",
+            "TransID": "SB40ZXFVRO",
+            "TransTime": "20240204014010",
+            "TransAmount": "2000.00",
+            "BusinessShortCode": "4124755",
+            "BillRefNumber": "STEPAKASH",
+            "InvoiceNumber": "",
+            "OrgAccountBalance": "3910.00",
+            "ThirdPartyTransID": "",
+            "MSISDN": "2547 ***** 447",
+            "FirstName": "zacharia"
+        }
+        

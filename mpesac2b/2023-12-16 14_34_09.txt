@@ -1,0 +1,1 @@
+{"Body":{"stkCallback":{"MerchantRequestID":"42592-17078356-1","CheckoutRequestID":"ws_CO_16122023143351455720207523","ResultCode":1037,"ResultDesc":"DS timeout user cannot be reached"}}}

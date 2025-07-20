@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": " DICKSON CHEGE",
+        "client_to_loginid": "CR6393345",
+        "echo_req": {
+            "amount": 10.18,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 231462823,
+            "transfer_to": "CR6393345"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 231462823,
+        "transaction_id": 112150330861
+    }
+}

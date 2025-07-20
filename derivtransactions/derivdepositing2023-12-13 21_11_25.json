@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": "Mr MIKE MACHUKI",
+        "client_to_loginid": "CR1451089",
+        "echo_req": {
+            "amount": 10.18,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 185821151,
+            "transfer_to": "CR1451089"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 185821151,
+        "transaction_id": 112170441581
+    }
+}

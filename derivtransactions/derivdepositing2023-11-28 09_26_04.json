@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": " Samson Munene",
+        "client_to_loginid": "CR3808749",
+        "echo_req": {
+            "amount": 10.03,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 287222023,
+            "transfer_to": "CR3808749"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 287222023,
+        "transaction_id": 111502667381
+    }
+}

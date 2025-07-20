@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": " RUTH WAWERU",
+        "client_to_loginid": "CR3969251",
+        "echo_req": {
+            "amount": 31.03,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 590593953,
+            "transfer_to": "CR3969251"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 590593953,
+        "transaction_id": 112078969341
+    }
+}

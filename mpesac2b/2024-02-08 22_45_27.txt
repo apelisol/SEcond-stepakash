@@ -1,0 +1,1 @@
+{"Body":{"stkCallback":{"MerchantRequestID":"51dd-4635-bbb6-170aeb781b9237615696","CheckoutRequestID":"ws_CO_08022024224524323757259996","ResultCode":1001,"ResultDesc":"Unable to lock subscriber."}}}

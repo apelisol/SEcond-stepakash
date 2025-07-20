@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": " Derick Osoro",
+        "client_to_loginid": "CR3990862",
+        "echo_req": {
+            "amount": 10.13,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 320379530,
+            "transfer_to": "CR3990862"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 320379530,
+        "transaction_id": 112529751141
+    }
+}

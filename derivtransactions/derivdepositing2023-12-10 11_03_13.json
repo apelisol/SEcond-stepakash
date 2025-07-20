@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": "Mr Peter Onyinkwa",
+        "client_to_loginid": "CR2598368",
+        "echo_req": {
+            "amount": 19,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 807872879,
+            "transfer_to": "CR2598368"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 807872879,
+        "transaction_id": 112023089781
+    }
+}

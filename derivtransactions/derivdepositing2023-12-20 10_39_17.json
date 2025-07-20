@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": "Mr collins kiptoo kirui",
+        "client_to_loginid": "CR1010562",
+        "echo_req": {
+            "amount": 19,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 919767091,
+            "transfer_to": "CR1010562"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 919767091,
+        "transaction_id": 112436820761
+    }
+}

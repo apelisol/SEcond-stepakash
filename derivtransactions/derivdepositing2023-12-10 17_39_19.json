@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": "Mr Kelvin GITHINJI Kiboro",
+        "client_to_loginid": "CR1353961",
+        "echo_req": {
+            "amount": 151.99,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 221160395,
+            "transfer_to": "CR1353961"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 221160395,
+        "transaction_id": 112033687961
+    }
+}

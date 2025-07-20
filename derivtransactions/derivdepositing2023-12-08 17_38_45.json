@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": "Mr derrick mwangi",
+        "client_to_loginid": "CR1880167",
+        "echo_req": {
+            "amount": 95.18,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 985864655,
+            "transfer_to": "CR1880167"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 985864655,
+        "transaction_id": 111955715881
+    }
+}

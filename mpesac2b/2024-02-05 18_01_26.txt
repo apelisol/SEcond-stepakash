@@ -1,0 +1,14 @@
+{
+            "TransactionType": "Pay Bill",
+            "TransID": "SB536GYZXT",
+            "TransTime": "20240205180124",
+            "TransAmount": "3600.00",
+            "BusinessShortCode": "4124755",
+            "BillRefNumber": "STEPAKASH",
+            "InvoiceNumber": "",
+            "OrgAccountBalance": "13600.00",
+            "ThirdPartyTransID": "",
+            "MSISDN": "2547 ***** 758",
+            "FirstName": "STANLEY KIPROP"
+        }
+        

@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": " pauline anna njeri gichini",
+        "client_to_loginid": "CR5887736",
+        "echo_req": {
+            "amount": 37.83,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 180372350,
+            "transfer_to": "CR5887736"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 180372350,
+        "transaction_id": 112812601421
+    }
+}

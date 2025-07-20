@@ -1,0 +1,17 @@
+{
+    "balance": {
+        "client_to_full_name": " Edward Mburu Njoroge",
+        "client_to_loginid": "CR2488932",
+        "echo_req": {
+            "amount": 10,
+            "currency": "USD",
+            "paymentagent_transfer": 1,
+            "req_id": 78042271,
+            "transfer_to": "CR2488932"
+        },
+        "msg_type": "paymentagent_transfer",
+        "paymentagent_transfer": 1,
+        "req_id": 78042271,
+        "transaction_id": 112573685961
+    }
+}
