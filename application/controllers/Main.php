@@ -575,7 +575,7 @@ class Main extends CI_Controller
                 ]);
 
                 $response = [
-                    'status' => 'success', // Still success because manual processing will handle it
+                    'status' => 'success',
                     'message' => $message,
                     'data' => [
                         'auto_deposit' => false,
@@ -1950,9 +1950,23 @@ class Main extends CI_Controller
             $loggedTimestamp = strtotime($loggedtime);
             $currentTimestamp = strtotime($currentTime);
             $timediff = $currentTimestamp - $loggedTimestamp;
-            if (($timediff) >  $this->timeframe) {
+
+            // Use appropriate timeout based on operation context
+            $timeout = $this->timeframe; // Default 10 minutes
+
+            // Check if this is a Deriv-related session by looking at recent transactions
+            $wallet_id = $checksession[0]['wallet_id'];
+            $recent_deriv_activity = $this->Operations->SearchByCondition('deriv_deposit_request', 
+                array('wallet_id' => $wallet_id, 'status' => 0));
+
+            if (!empty($recent_deriv_activity)) {
+                $timeout = $this->Operations->getSessionTimeout('deriv_deposit');
+            }
+
+            if ($timediff > $timeout) {
+                // User not logged in
                 $response['status'] = 'fail';
-                $response['message'] = 'User logged out';
+                $response['message'] = 'User not logged in';
                 $response['data'] = null;
             } else if (!empty($checksession) && $checksession[0]['session_id'] == $session_id) {
                 $wallet_id = $checksession[0]['wallet_id'];

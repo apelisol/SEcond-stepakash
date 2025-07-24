@@ -1598,7 +1598,94 @@ class Operations extends CI_model
     }
 
 
-    public function auth_session($session_id,$currentTime,$timeframe)
+    /**
+     * Get session timeout based on operation type
+     * @param string $operation_type - 'deriv_deposit', 'deriv_withdraw', 'default'
+     * @return int timeout in seconds
+     */
+    public function getSessionTimeout($operation_type = 'default')
+    {
+        switch($operation_type) {
+            case 'deriv_deposit':
+            case 'deriv_withdraw':
+                return 1800; // 30 minutes for Deriv operations
+            case 'default':
+            default:
+                return 600; // 10 minutes for regular operations
+        }
+    }
+
+    /**
+     * Extend session timeout for long-running operations
+     * @param string $session_id - Session ID to extend
+     * @param string $operation_type - Type of operation requiring extension
+     * @return bool Success status
+     */
+    public function extendSession($session_id, $operation_type = 'deriv_deposit')
+    {
+        $currentTime = date('Y-m-d H:i:s');
+        $session_update_data = array(
+            'created_on' => $currentTime,
+            'last_activity' => $currentTime,
+            'operation_type' => $operation_type
+        );
+        
+        $condition = array('session_id' => $session_id);
+        return $this->UpdateData('login_session', $condition, $session_update_data);
+    }
+
+    /**
+     * Validate session with automatic extension for Deriv operations
+     * @param string $session_id - Session ID to validate
+     * @param string $operation_type - Type of operation ('deriv_deposit', 'deriv_withdraw', 'default')
+     * @return array Response with session validation result
+     */
+    public function validateDerivSession($session_id, $operation_type = 'deriv_deposit')
+    {
+        $currentTime = date('Y-m-d H:i:s');
+        $timeframe = $this->getSessionTimeout($operation_type);
+        
+        // Get session details
+        $session_condition = array('session_id' => $session_id);
+        $checksession = $this->SearchByCondition('login_session', $session_condition);
+        
+        if (empty($checksession)) {
+            return array(
+                'status' => 'fail',
+                'message' => 'Session not found',
+                'response' => 0
+            );
+        }
+        
+        $loggedtime = $checksession[0]['created_on'];
+        $loggedTimestamp = strtotime($loggedtime);
+        $currentTimestamp = strtotime($currentTime);
+        $timediff = $currentTimestamp - $loggedTimestamp;
+        
+        // Check if session has expired
+        if ($timediff > $timeframe) {
+            return array(
+                'status' => 'fail',
+                'message' => 'Session expired for ' . $operation_type,
+                'response' => 0
+            );
+        }
+        
+        // Extend session for Deriv operations
+        if (in_array($operation_type, ['deriv_deposit', 'deriv_withdraw'])) {
+            $this->extendSession($session_id, $operation_type);
+        }
+        
+        return array(
+            'status' => 'success',
+            'message' => 'Session valid',
+            'response' => 1,
+            'wallet_id' => $checksession[0]['wallet_id'],
+            'phone' => $checksession[0]['phone']
+        );
+    }
+
+    public function auth_session($session_id,$currentTime,$timeframe = 600)
    {
         if(empty($session_id))
         {
